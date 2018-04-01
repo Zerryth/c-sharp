@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\bin\Debug\netcoreapp2.0\collections_practice.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\bin\Debug\netcoreapp2.0\collections_practice.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\bin\Debug\netcoreapp2.0\collections_practice.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\bin\Debug\netcoreapp2.0\collections_practice.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\bin\Debug\netcoreapp2.0\collections_practice.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\obj\Debug\netcoreapp2.0\collections_practice.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\obj\Debug\netcoreapp2.0\collections_practice.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\obj\Debug\netcoreapp2.0\collections_practice.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\obj\Debug\netcoreapp2.0\collections_practice.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\collections_practice\obj\Debug\netcoreapp2.0\collections_practice.pdb
