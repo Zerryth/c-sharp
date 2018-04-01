@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.pdb
