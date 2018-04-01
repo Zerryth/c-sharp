@@ -148,7 +148,7 @@ namespace first_csharp
             for (int i = 0; i < 10; i++)
             {
                 // prints the next random value between 2 and 8
-                System.Console.WriteLine(rand.Next(2,8));
+                System.Console.WriteLine(randomNumber.Next(2,8));
             }
         }
     }

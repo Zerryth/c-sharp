@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\bin\Debug\netcoreapp2.0\fundamentals_i.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\bin\Debug\netcoreapp2.0\fundamentals_i.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\bin\Debug\netcoreapp2.0\fundamentals_i.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\bin\Debug\netcoreapp2.0\fundamentals_i.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\bin\Debug\netcoreapp2.0\fundamentals_i.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\obj\Debug\netcoreapp2.0\fundamentals_i.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\obj\Debug\netcoreapp2.0\fundamentals_i.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\obj\Debug\netcoreapp2.0\fundamentals_i.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\obj\Debug\netcoreapp2.0\fundamentals_i.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\fundamentals_i\obj\Debug\netcoreapp2.0\fundamentals_i.pdb
