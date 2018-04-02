@@ -65,6 +65,8 @@ namespace basic13
             ShiftValues(standardArr);
 
             NumberToString(anArray);
+            object[] boxedArray = new object[] {-1, 3, 2, -16};
+            ReplaceNumberWithString(boxedArray);
         }
         // Find Max
         // Write a program (sets of instructions) that takes any array and prints the maximum value in the array. Your program should also work with a given array that has all negative numbers (e.g. [-3, -5, -7]), or even a mix of positive numbers, negative numbers and zero.
@@ -217,6 +219,20 @@ namespace basic13
                 Console.WriteLine(dojoList[i]);
             }
             return dojoList;
+        }
+
+        // OR with a boxed array:
+        public static object[] ReplaceNumberWithString(object[] x)
+        {
+            for (var i = 0; i < x.Length; i++)
+            {
+                if ((int)x[i] < 0)
+                {
+                    x[i] = "Dojo";
+                }
+                Console.WriteLine(x[i]);
+            }
+            return x;
         }
     }
 }
