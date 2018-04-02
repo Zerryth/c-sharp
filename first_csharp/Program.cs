@@ -327,6 +327,41 @@ namespace first_csharp
             {
                 Console.WriteLine(entry.Key + " - " + entry.Value);
             }
+
+            // BOXING & UNBOXING
+            // What do we do when we need to make a collection of different types of data?
+            // Boxing: We can construct a list of one data type & that list holds different data types
+            // almost all types can be cast as a generic --> object <-- type
+                // so you can construct a list of type object, you will be able to hold varying types in one collection
+            // be sure to CAST IT BACK TO ITS ORIGINAL TYPE WHEN RETRIEVING ANYTHING (unboxing)
+
+            // box some string data into a variable
+            object BoxData = "This is clearly a string.";
+            // Make sure it is the type you need before proceeding
+            if (BoxData is int)
+            {
+                Console.WriteLine("I guess we have an integer in the box?"); // shouldn't run
+            }
+            if (BoxData is string)
+            {
+                Console.WriteLine("It is totally a string in the box!");
+            }
+            // the --> is <-- keyword allows us to discern what the real type of an object is when we unbox it, but to actually treat it as that type, we need to actually cast it.
+                // unlike conversion casting, unboxing casting doesn't create a new space in memory
+                // it just changes how the system references the object
+                // with unboxing we use safe explicit casting
+            
+            // Safe Explicit Casting
+            // safe explicit casting uses the --> as <-- keyword
+            // if a safe casting fails, unlike an explicit casting (which throws an exception), safe casting simply returns null
+            // safe casting can only be used on nullable types. int are non-nullable, and therefore cannot be safe cast
+
+            object ActuallyAString = "a string";
+            string ExplicitString = ActuallyAString as string;
+
+            // THIS WON'T WORK
+            // object ActuallyInt = 256;
+            // int ExplicitInt = ActuallyInt as int;
         }
     }
 }
