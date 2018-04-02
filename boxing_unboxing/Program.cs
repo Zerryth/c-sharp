@@ -29,18 +29,11 @@ namespace boxing_unboxing
             {
                 if (entry is int)
                 {
-                    sum += Convert.ToInt32(entry);;
+                    // sum += Convert.ToInt32(entry); // this works as well
+                    sum += (int)entry;
                 }
             }
             Console.WriteLine(sum);
-
-            // int something = -2;
-            // float ans = (something/6F);
-            // Console.WriteLine(ans);
-            // int blah = -2;
-            
-            // Console.WriteLine(Convert.ToDouble(blah)/6);
-            // Console.WriteLine(-2F/6);
         }
     }
 }

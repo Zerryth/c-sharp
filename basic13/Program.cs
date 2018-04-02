@@ -67,6 +67,9 @@ namespace basic13
             NumberToString(anArray);
             object[] boxedArray = new object[] {-1, 3, 2, -16};
             ReplaceNumberWithString(boxedArray);
+
+            Sigma(5);
+            NegsToFalse(new object[] {5, -2, 5, -3, 0});
         }
         // Find Max
         // Write a program (sets of instructions) that takes any array and prints the maximum value in the array. Your program should also work with a given array that has all negative numbers (e.g. [-3, -5, -7]), or even a mix of positive numbers, negative numbers and zero.
@@ -233,6 +236,33 @@ namespace basic13
                 Console.WriteLine(x[i]);
             }
             return x;
+        }
+
+        // Group Activity. Write Sima in C#
+        public static int Sigma(int num)
+        {
+            int sum = 0;
+            while (num > 0)
+            {
+                sum += num;
+                num--;
+            }
+            Console.WriteLine(sum);
+            return sum;
+        }
+
+        // replace negative numbers with boolean false
+        public static object[] NegsToFalse(object[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if ((int)arr[i] < 0)
+                {
+                    arr[i] = false;
+                }
+                Console.WriteLine(arr[i]);
+            }
+            return arr;
         }
     }
 }
