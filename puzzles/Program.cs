@@ -13,7 +13,7 @@ namespace puzzles
             
             // TossCoin(rand);
 
-            TossMultipleCoins(5, rand);
+            // TossMultipleCoins(5, rand);
 
             string[] namesArray = {"Todd", "Tiffany", "Charlie", "Geneva", "Sydney"};
             ShuffleNames(namesArray, rand);

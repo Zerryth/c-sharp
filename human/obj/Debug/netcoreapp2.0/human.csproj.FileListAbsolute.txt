@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\bin\Debug\netcoreapp2.0\human.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\bin\Debug\netcoreapp2.0\human.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\bin\Debug\netcoreapp2.0\human.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\obj\Debug\netcoreapp2.0\human.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\obj\Debug\netcoreapp2.0\human.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\obj\Debug\netcoreapp2.0\human.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\obj\Debug\netcoreapp2.0\human.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\human\obj\Debug\netcoreapp2.0\human.pdb
