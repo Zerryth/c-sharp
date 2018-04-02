@@ -33,6 +33,14 @@ namespace boxing_unboxing
                 }
             }
             Console.WriteLine(sum);
+
+            // int something = -2;
+            // float ans = (something/6F);
+            // Console.WriteLine(ans);
+            // int blah = -2;
+            
+            // Console.WriteLine(Convert.ToDouble(blah)/6);
+            // Console.WriteLine(-2F/6);
         }
     }
 }

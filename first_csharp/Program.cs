@@ -362,6 +362,63 @@ namespace first_csharp
             // THIS WON'T WORK
             // object ActuallyInt = 256;
             // int ExplicitInt = ActuallyInt as int;
+
+            // FUNCTIONS
+            // A function is a name related to a block of code we an execute.
+
+            // ACCESSIBILITY LEVELS
+            // Accessibility levels control what other parts of the program have access to invok the function.
+                // Public - specifies that function is fully accessible from any part of the program that can see the file it is written in. 
+                // Private - restricts a function to only be called from within the same scope as its definition. 
+                    // if we leave out the accessibility keyword, functions default to being private
+                
+            // Static?
+            // static - optional keyword - controls how we can invoke a function within our code
+                // a static function can be called within the scope of its definition or by calling it on the class it's defined in
+                // while non-static methods have to be called on an instance of an object
+            
+            // Invoking a function
+            // When we want to invoke a function in a .NET console application, we need to be aware of a few things:
+                // function must be placed OUTSIDE of the Main() function, but still inside the Program class
+                    // this is b/c in C# code can only see other code written within the same class by default
+            
+            // Function Parameters
+
+
+            SayHello();
+            SayHiToName("Ashley");
+            SayHey();
+            SayHey("Dude");
+           
+            string greeting;
+            greeting = Howdy("partner");
+            Console.WriteLine(greeting);
+        }
+        public static void SayHello() 
+        {
+            Console.WriteLine("Hello, how are you doing today?");
+        }
+        
+        public static void SayHiToName(string name)
+        {
+            Console.WriteLine("Hello, {0}, how are you doing today?", name);
+        }
+
+        // Default Parameter Values
+        // It's good to have default parameter values sometimes. Let's say we don't know the name of someone. We can default to "Hey, buddy!"
+
+        public static void SayHey(string name = "buddy")
+        {
+            Console.WriteLine("Hey, " + name + "!");
+        }
+
+        // Return
+        // in C# we must specify what datatype, if any, the function will return
+        // void keyword signifies our function has no return value
+
+        public static string Howdy(string name = "buddy")
+        {
+            return $"Howdy, {name}.";
         }
     }
 }

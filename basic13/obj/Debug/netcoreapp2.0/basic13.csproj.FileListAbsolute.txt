@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\bin\Debug\netcoreapp2.0\basic13.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\bin\Debug\netcoreapp2.0\basic13.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\bin\Debug\netcoreapp2.0\basic13.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\obj\Debug\netcoreapp2.0\basic13.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\obj\Debug\netcoreapp2.0\basic13.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\basic13\obj\Debug\netcoreapp2.0\basic13.pdb
