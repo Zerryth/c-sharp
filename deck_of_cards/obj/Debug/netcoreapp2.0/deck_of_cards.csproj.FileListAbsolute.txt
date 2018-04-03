@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\bin\Debug\netcoreapp2.0\deck_of_cards.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\bin\Debug\netcoreapp2.0\deck_of_cards.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\bin\Debug\netcoreapp2.0\deck_of_cards.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\bin\Debug\netcoreapp2.0\deck_of_cards.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\bin\Debug\netcoreapp2.0\deck_of_cards.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\obj\Debug\netcoreapp2.0\deck_of_cards.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\obj\Debug\netcoreapp2.0\deck_of_cards.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\obj\Debug\netcoreapp2.0\deck_of_cards.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\obj\Debug\netcoreapp2.0\deck_of_cards.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\deck_of_cards\obj\Debug\netcoreapp2.0\deck_of_cards.pdb
