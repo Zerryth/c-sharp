@@ -6,11 +6,11 @@ namespace human
     {
         public string name;
         public int strength, intelligence, dexterity, health;
-        public Human(string nameInput)
+        public Human(string name)
         {
             // Give a default value of 3 for strength, intelligence, and dexterity. Health should have a default of 100.
             // When an object is constructed from this class it should have the ability to pass a name
-            name = nameInput;
+            this.name = name;
             strength = 3;
             intelligence = 3;
             dexterity = 3;
@@ -40,6 +40,7 @@ namespace human
             {
                 Human temp = attackTarget as Human;
                 temp.health -= 5 * strength;
+                temp.displayInfo();
             }
             else
             {
@@ -48,9 +49,10 @@ namespace human
             return this;
         }
 
-        public void displayHealth()
+        public Human displayInfo()
         {
-            Console.WriteLine(health);
+            Console.WriteLine($"name: {this.name}, strength: {strength}, intelligence: {intelligence}, dexterity: {dexterity}, health: {health}");
+            return this;
         }
     }
 }
