@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\bin\Debug\netcoreapp2.0\crud_with_mysql.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\bin\Debug\netcoreapp2.0\crud_with_mysql.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\bin\Debug\netcoreapp2.0\crud_with_mysql.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\bin\Debug\netcoreapp2.0\crud_with_mysql.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\bin\Debug\netcoreapp2.0\crud_with_mysql.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\obj\Debug\netcoreapp2.0\crud_with_mysql.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\obj\Debug\netcoreapp2.0\crud_with_mysql.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\obj\Debug\netcoreapp2.0\crud_with_mysql.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\obj\Debug\netcoreapp2.0\crud_with_mysql.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\crud_with_mysql\obj\Debug\netcoreapp2.0\crud_with_mysql.pdb

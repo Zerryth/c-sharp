@@ -34,7 +34,7 @@ namespace MusicLINQ
             // Console.WriteLine(test.ArtistName + "-" + test.Age);
 
             // Solution 2
-            var youngestAge = Artists.Min( artist => artist.Age);
+            var youngestAge = Artists.Min(artist => artist.Age);
             var youngestArtist = Artists.Where( artist => artist.Age == youngestAge);
             // Console.WriteLine(youngestAge);
             // Console.WriteLine(youngestArtist);
