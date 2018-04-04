@@ -5,7 +5,7 @@ namespace deck_of_cards
 {
     public class Deck
     {
-        List<Card> cards = new List<Card>();
+       public List<Card> cards = new List<Card>();
         string[] suits;
 
         public Deck()
@@ -81,6 +81,7 @@ namespace deck_of_cards
         public void getDeckCount()
         {
             Console.WriteLine(cards.Count);
+            
         }
 
     }

@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\bin\Debug\netcoreapp2.0\asp_net_core_getting_started.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\bin\Debug\netcoreapp2.0\asp_net_core_getting_started.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\bin\Debug\netcoreapp2.0\asp_net_core_getting_started.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\bin\Debug\netcoreapp2.0\asp_net_core_getting_started.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\bin\Debug\netcoreapp2.0\asp_net_core_getting_started.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\obj\Debug\netcoreapp2.0\asp_net_core_getting_started.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\obj\Debug\netcoreapp2.0\asp_net_core_getting_started.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\obj\Debug\netcoreapp2.0\asp_net_core_getting_started.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\obj\Debug\netcoreapp2.0\asp_net_core_getting_started.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\asp_net_core_getting_started\obj\Debug\netcoreapp2.0\asp_net_core_getting_started.pdb

@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\bin\Debug\netcoreapp2.0\calling_card.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\bin\Debug\netcoreapp2.0\calling_card.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\bin\Debug\netcoreapp2.0\calling_card.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\bin\Debug\netcoreapp2.0\calling_card.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\bin\Debug\netcoreapp2.0\calling_card.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\obj\Debug\netcoreapp2.0\calling_card.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\obj\Debug\netcoreapp2.0\calling_card.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\obj\Debug\netcoreapp2.0\calling_card.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\obj\Debug\netcoreapp2.0\calling_card.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\calling_card\obj\Debug\netcoreapp2.0\calling_card.pdb

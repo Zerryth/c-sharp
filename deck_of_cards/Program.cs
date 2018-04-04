@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace deck_of_cards
 {
@@ -20,6 +22,11 @@ namespace deck_of_cards
             deck1.getDeckCount();
             jill.discardCard(1);
             jill.showHand();
+
+            List<Card> AllHeartCards = deck1.cards.Where(card => card.suit == "Hearts").OrderBy(card => card.val).ToList();
+
+            int highestVal = AllHeartCards.Max(c => c.val);
+            AllHeartCards.First(c => c.val == highestVal);
         }
     }
 }

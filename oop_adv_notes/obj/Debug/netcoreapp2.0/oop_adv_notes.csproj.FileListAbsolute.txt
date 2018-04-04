@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\obj\Debug\netcoreapp2.0\oop_adv_notes.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\obj\Debug\netcoreapp2.0\oop_adv_notes.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\obj\Debug\netcoreapp2.0\oop_adv_notes.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\bin\Debug\netcoreapp2.0\oop_adv_notes.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\bin\Debug\netcoreapp2.0\oop_adv_notes.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\bin\Debug\netcoreapp2.0\oop_adv_notes.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\bin\Debug\netcoreapp2.0\oop_adv_notes.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\bin\Debug\netcoreapp2.0\oop_adv_notes.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\obj\Debug\netcoreapp2.0\oop_adv_notes.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\oop_adv_notes\obj\Debug\netcoreapp2.0\oop_adv_notes.pdb
