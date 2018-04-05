@@ -23,7 +23,7 @@ namespace RapperAPI.Controllers {
 
         // [Route("name/{groupName}/{showMembers:bool}")]
         // [HttpGet]
-        // public JsonResult GetByNameAndShowMembers(string groupName, bool showMembers)
+        // public JsonResult GetByNameAndShowMembers(string groupName, string showMembers)
         // {
         //     var groupsWithName = allGroups.Join(allArtists,
         //                                         group => group.Id,
@@ -32,7 +32,7 @@ namespace RapperAPI.Controllers {
         //                                         {
         //                                             return new { Id = group.Id, Group = group.GroupName, group.Members };
         //                                         })
-        //                                         .Where(g => g.Group == groupName);
+        //                                         .Where(g => g.Group == groupName && showMembers == "true");
         //     return Json(groupsWithName);                                       
         // }
 
