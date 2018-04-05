@@ -12,9 +12,6 @@ namespace time_display.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            var  theTime = CurrentTime.ToString("MMM d, yyy");
-            Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!1");
-            Console.WriteLine(theTime);
             return View("Index");
         }
     }

@@ -27,8 +27,9 @@ namespace time_display
             {
                 app.UseDeveloperExceptionPage();
             }
+            // We will now add the UseStaticFiles() middleware, which allows our app to access our static files.
+            app.UseStaticFiles();
             app.UseMvc();
-
         }
     }
 }

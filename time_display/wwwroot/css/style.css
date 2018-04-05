@@ -1,0 +1,17 @@
+* {
+    color: lightseagreen;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+.wrapper {
+    margin-left: 20%;
+    width: 725px;
+}
+h2 {
+    margin-left: 0%;
+}
+.time_container {
+    border: 5px solid lightslategray;
+    width: 720px;
+    height: 150px;
+}
