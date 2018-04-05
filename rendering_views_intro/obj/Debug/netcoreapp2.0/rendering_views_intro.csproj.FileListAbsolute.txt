@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\bin\Debug\netcoreapp2.0\rendering_views_intro.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\bin\Debug\netcoreapp2.0\rendering_views_intro.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\bin\Debug\netcoreapp2.0\rendering_views_intro.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\bin\Debug\netcoreapp2.0\rendering_views_intro.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\bin\Debug\netcoreapp2.0\rendering_views_intro.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\obj\Debug\netcoreapp2.0\rendering_views_intro.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\obj\Debug\netcoreapp2.0\rendering_views_intro.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\obj\Debug\netcoreapp2.0\rendering_views_intro.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\obj\Debug\netcoreapp2.0\rendering_views_intro.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rendering_views_intro\obj\Debug\netcoreapp2.0\rendering_views_intro.pdb

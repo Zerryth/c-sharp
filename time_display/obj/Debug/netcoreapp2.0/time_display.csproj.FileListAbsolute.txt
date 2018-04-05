@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\bin\Debug\netcoreapp2.0\time_display.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\bin\Debug\netcoreapp2.0\time_display.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\bin\Debug\netcoreapp2.0\time_display.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\bin\Debug\netcoreapp2.0\time_display.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\bin\Debug\netcoreapp2.0\time_display.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\obj\Debug\netcoreapp2.0\time_display.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\obj\Debug\netcoreapp2.0\time_display.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\obj\Debug\netcoreapp2.0\time_display.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\obj\Debug\netcoreapp2.0\time_display.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\time_display\obj\Debug\netcoreapp2.0\time_display.pdb
