@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\bin\Debug\netcoreapp2.0\rapper_api.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\bin\Debug\netcoreapp2.0\rapper_api.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\bin\Debug\netcoreapp2.0\rapper_api.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\bin\Debug\netcoreapp2.0\rapper_api.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\bin\Debug\netcoreapp2.0\rapper_api.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\obj\Debug\netcoreapp2.0\rapper_api.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\obj\Debug\netcoreapp2.0\rapper_api.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\obj\Debug\netcoreapp2.0\rapper_api.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\obj\Debug\netcoreapp2.0\rapper_api.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\rapper_api\obj\Debug\netcoreapp2.0\rapper_api.pdb
