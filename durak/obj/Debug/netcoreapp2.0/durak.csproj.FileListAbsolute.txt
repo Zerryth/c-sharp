@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\bin\Debug\netcoreapp2.0\durak.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\bin\Debug\netcoreapp2.0\durak.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\bin\Debug\netcoreapp2.0\durak.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\bin\Debug\netcoreapp2.0\durak.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\bin\Debug\netcoreapp2.0\durak.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\obj\Debug\netcoreapp2.0\durak.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\obj\Debug\netcoreapp2.0\durak.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\obj\Debug\netcoreapp2.0\durak.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\obj\Debug\netcoreapp2.0\durak.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\durak\obj\Debug\netcoreapp2.0\durak.pdb

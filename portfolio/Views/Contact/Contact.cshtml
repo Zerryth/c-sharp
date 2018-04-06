@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="/">Home</a> |
+        <a href="/project">Projects</a> |
+        <a href="/contact">Contact</a>
+    </div>
+    <h2>Contact Me</h2>
+    <form action="SubmitContact" method="POST">
+        <p>Name: </p>
+        <input type="text" name="name">
+        <p>Email: </p>
+        <input type="text" name="email">
+        <p>Message: </p>
+        <input type="text" name="text">
+        <button type="submit">Submit Contact</button>
+    </form>
+
+    <h1>ViewBag practice</h1>
+    <h1>@ViewBag.ContactInfo</h1>
+</body>
+</html>

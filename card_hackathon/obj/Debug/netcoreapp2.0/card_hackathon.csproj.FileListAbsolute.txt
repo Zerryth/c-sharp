@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\bin\Debug\netcoreapp2.0\card_hackathon.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\bin\Debug\netcoreapp2.0\card_hackathon.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\bin\Debug\netcoreapp2.0\card_hackathon.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\bin\Debug\netcoreapp2.0\card_hackathon.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\bin\Debug\netcoreapp2.0\card_hackathon.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\obj\Debug\netcoreapp2.0\card_hackathon.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\obj\Debug\netcoreapp2.0\card_hackathon.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\obj\Debug\netcoreapp2.0\card_hackathon.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\obj\Debug\netcoreapp2.0\card_hackathon.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\card_hackathon\obj\Debug\netcoreapp2.0\card_hackathon.pdb

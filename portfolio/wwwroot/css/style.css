@@ -1,0 +1,20 @@
+* {
+    color: lightseagreen;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    
+}
+.header h1, h2 {
+    font-family: 'Poiret One', cursive;
+}
+#me, #time_display, #samsara, #tetris {
+    width: 500px;
+}
+
+hr {
+    border: lightskyblue solid 1px;
+    margin: 60px 0px;
+}
+.wrapper {
+    padding: 20px 40px;
+}
