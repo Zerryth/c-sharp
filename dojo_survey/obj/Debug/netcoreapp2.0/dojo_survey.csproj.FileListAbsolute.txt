@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\bin\Debug\netcoreapp2.0\dojo_survey.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\bin\Debug\netcoreapp2.0\dojo_survey.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\bin\Debug\netcoreapp2.0\dojo_survey.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\bin\Debug\netcoreapp2.0\dojo_survey.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\bin\Debug\netcoreapp2.0\dojo_survey.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\obj\Debug\netcoreapp2.0\dojo_survey.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\obj\Debug\netcoreapp2.0\dojo_survey.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\obj\Debug\netcoreapp2.0\dojo_survey.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\obj\Debug\netcoreapp2.0\dojo_survey.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojo_survey\obj\Debug\netcoreapp2.0\dojo_survey.pdb

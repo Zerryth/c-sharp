@@ -1,0 +1,45 @@
+* {
+    color: lightseagreen;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+.wrapper {
+    border: 2px solid lightslategrey;
+    margin: 20px 40px;
+    width: 700px;
+    padding: 20px;
+}
+label {
+    margin: 20px;
+}
+input, select, textarea {
+    margin: 30px;
+}
+textarea {
+     width: 75%;
+}
+button, a {
+    background-color: rgba(57, 156, 218, 0.534);
+    color: white;
+    box-shadow: 4px 3px 7px 0px #bdbdbdba;
+    border: none;
+    margin: 0% 0% 5% 75%;
+    padding: 7px 24px;
+}
+h1 {
+    text-decoration: underline;
+}
+.wrapper .labels, .wrapper .answers {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 200px;
+}
+p {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}

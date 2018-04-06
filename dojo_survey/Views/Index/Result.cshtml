@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <title>Results</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Submitted Info</h1>
+        <div class="labels">
+            <p>Name: </p>
+            <p>Dojo Location: </p>
+            <p>Favorite Language: </p>
+            <p>Comment: </p>
+        </div>
+        <div class="answers">
+            <p id="result_name">@ViewBag.Result["Name"]</p>
+            <p id="location">@ViewBag.Result["Location"]</p>
+            <p id="language">@ViewBag.Result["Language"]</p>
+            <p id="comment">@ViewBag.Result["Comment"]</p>
+        </div>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
