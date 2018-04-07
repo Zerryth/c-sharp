@@ -1,0 +1,38 @@
+* {
+    color: lightseagreen;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+.wrapper {
+    margin: 10% 25%;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(199, 139, 199);
+}
+
+.passcode_container {
+    width: 400px;
+    border: 2px solid lightslategrey;
+    margin: 6% 19%;
+    padding: 12px;
+}
+button {
+    background: linear-gradient(to bottom right, rgba(57, 156, 218, 0.534), rgb(84, 178, 236));
+    color: white;
+    border: none;
+    padding: 7px 24px;
+}
+button, .passcode_container {
+    border-radius: 4px;
+    box-shadow: 4px 3px 7px 0px #bdbdbdba;
+}
+button:hover{
+    color: lightgoldenrodyellow;
+    background-color: rgb(84, 178, 236);
+}
