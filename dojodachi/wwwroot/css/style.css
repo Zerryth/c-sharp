@@ -25,12 +25,20 @@ body {
 p {
     margin: 1%;
 }
+.status {
+    background: linear-gradient(to bottom right, white, #f1f1e1b3);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #95a1ae45;
+}
 .status p {
     display: inline-block;
+}
+.status, .status p, img#happy {
     margin: 2% auto;
 }
 .status span {
-    color: lightskyblue;
+    color: #53bbfb;
 }
 .dachi_container {
     border: 2px solid lightslategrey;
@@ -71,8 +79,4 @@ button:hover{
 }
 img#rip, img#happy {
     display: none;
-}
-
-img#happy {
-    margin: 2% auto;    
 }
