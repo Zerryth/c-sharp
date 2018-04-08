@@ -26,32 +26,28 @@ $(document).ready(function() {
 
     function checkLoss()
     {
-        let loss = false;
         if (fullness <= 0 || happiness <= 0)
         {
             continueGame = false;
-            loss = true;
             message = "Your Dojodachi has passed away...";
             $("#message").addClass("red");
             $("#bunny").fadeOut();
             $("#rip").delay(400).fadeIn();
         }
-        return loss;
+        return continueGame;
     }
 
      function checkWin()
     {
-        let win = false;
         if ((energy >= 30) && (fullness >= 30) && (happiness >= 30))
         {
             continueGame = false;
-            win = true;
             message = "Congratulations! You won!";
             $("#message").addClass("orange");
             $("#bunny").fadeOut();
             $("#happy").delay(400).fadeIn();
         }
-        return win;
+        return continueGame;
     }
 
     function feed()

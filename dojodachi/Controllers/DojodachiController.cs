@@ -62,7 +62,8 @@ namespace dojodachi.Controllers
             if (energy >= 5)
             {
                 res["energy"] = energy - 5;
-                if (Likes()){
+                if (Likes())
+                {
                     res["happiness"] = happiness + happinessIncrease;
                     res["message"] = $"You played with your Dojodachi! (Happiness +{happinessIncrease}, Energy -5)";
                 }
