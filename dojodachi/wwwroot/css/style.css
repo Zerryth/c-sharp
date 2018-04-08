@@ -7,12 +7,20 @@
     padding: 0px;
     font-weight: bold;
 }
+body {
+    background: linear-gradient(to bottom right, whitesmoke, rgba(203, 245, 219, 0.52));
+    height: 600px;
+}
 .wrapper {
     width: 60%;
     text-align: center;
+    /* background-color: white; */
 }
 .wrapper, .dachi_container {
     margin: auto;
+}
+.dachi_container {
+    background-color: white;
 }
 p {
     margin: 1%;
@@ -63,4 +71,8 @@ button:hover{
 }
 img#rip, img#happy {
     display: none;
+}
+
+img#happy {
+    margin: 2% auto;    
 }
