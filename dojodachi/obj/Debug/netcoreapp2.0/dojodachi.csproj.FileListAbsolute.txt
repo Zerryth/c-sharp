@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.pdb

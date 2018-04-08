@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Dojodachi!</title>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            let happiness = 20;
+            let fullness = 20;
+            let energy = 50;
+            let meals = 3;
+            let message = "";
+            let continueGame = true;
+            
+            updateStatus();
+
+            $("#feedBtn").on("click", () => {
+                console.log("feed");
+                feed();
+            });
+            $("#playBtn").on("click", () => {
+                console.log("play");
+                play();
+            });
+            $("#workBtn").on("click", () => {
+                console.log("work");
+                work();
+            });
+            $("#sleepBtn").on("click", () => {
+                console.log("sleep");
+                sleep();
+            });
+            $("#restart").on("click", () => { 
+                restart();
+            })
+
+            function checkWin()
+            {
+                let win = false;
+                if ((energy >= 30) && (fullness >= 30) && (happiness >= 30))
+                {
+                    continueGame = false;
+                    win = true;
+                    message = "Congratulations! You won!";
+                    $("#message").addClass("orange");
+                    $("bunny").fadeOut();
+                    $("#happy").delay(400).fadeIn();
+                }
+                return win;
+            }
+            function checkLoss()
+            {
+                let loss = false;
+                if (fullness <= 0 || happiness <= 0)
+                {
+                    continueGame = false;
+                    loss = true;
+                    message = "Your Dojodachi has passed away...";
+                    $("#message").addClass("red");
+                    $("#bunny").fadeOut();
+                    $("#rip").delay(400).fadeIn();
+                }
+                return loss;
+            }
+            function feed()
+            {
+                $.get("/feed/"+ fullness +"/" + meals , (res) => {
+                    fullness = res.fullness;
+                    meals = res.meals;
+                    message = res.message;
+                    updateStatus();
+                });
+            }
+            function getStatus()
+            {
+                $.get("/status/" + happiness + "/" + fullness + "/" + energy + "/" + meals, (res) => {
+                    console.log(res);
+                });
+            }
+
+            function play()
+            {
+                $.get("play/" + happiness + "/" + energy, (res) => {
+                    happiness = res.happiness;
+                    energy = res.energy;
+                    message = res.message;
+                    updateStatus();
+                });
+            }
+
+            function restart(){
+                location.reload(true);
+            }
+
+            function showRestartBtn()
+            {
+                if (!continueGame)
+                {
+                    $(".action_buttons").slideUp();
+                    $("#restart").slideDown();
+                }
+            }
+
+            function sleep()
+            {
+                $.get("sleep/" + energy + "/" + fullness + "/" + happiness, (res) => {
+                    energy = res.energy;
+                    fullness = res.fullness;
+                    happiness = res.happiness;
+                    updateStatus();
+                });
+            }
+
+            function updateStatus()
+            {
+                checkLoss();
+                checkWin();
+                $("#happiness").text(happiness);
+                $("#fullness").text(fullness);
+                $("#energy").text(energy);
+                $("#meals").text(meals);
+                $("#message").text(message);
+                getStatus();
+                showRestartBtn();
+            }
+
+            function work()
+            {
+                $.get("work/" + meals + "/" + energy, (res) => {
+                    meals = res.meals;
+                    energy = res.energy;
+                    message = res.message;
+                    updateStatus();
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="status">
+            <p>Fullness: <span id="fullness">0</span></p>
+            <p>Happiness: <span id="happiness">0</span></p>
+            <p>Meal: <span id="meals">0</span></p>
+            <p>Energy: <span id="energy">0</span> </p>
+        </div>
+        <div class="dachi_container">
+            <img src="~/img/chibibunny.jpeg" id="bunny">
+            <img src="~/img/rip.jpg" id="rip">
+            <img src="~/img/happy.jpg" id="happy">
+            <p id="message"></p>
+        </div>
+        <div class="action_buttons">
+            <button id="feedBtn">Feed</button>
+            <button id="playBtn">Play</button>
+            <button id="workBtn">Work</button>
+            <button id="sleepBtn">Sleep</button>
+        </div>
+        <div class="restartContainer">
+            <button id="restart">Restart?</button>
+        </div>
+    </div>
+</body>
+</html>

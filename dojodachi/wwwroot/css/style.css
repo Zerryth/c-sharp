@@ -1,0 +1,66 @@
+* {
+    color: lightseagreen;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.wrapper {
+    width: 60%;
+    text-align: center;
+}
+.wrapper, .dachi_container {
+    margin: auto;
+}
+p {
+    margin: 1%;
+}
+.status p {
+    display: inline-block;
+    margin: 2% auto;
+}
+.status span {
+    color: lightskyblue;
+}
+.dachi_container {
+    border: 2px solid lightslategrey;
+    width: 90%;
+}
+.dachi_container, button {
+    box-shadow: 4px 3px 7px 0px #bdbdbdba;
+    border-radius: 4px;
+}
+img {
+    width: 50%;
+    margin-left: -10%;
+}
+#message {
+    font-size: 20px;
+}
+.action_buttons, .restartContainer {
+    margin: 3%;
+}
+button#restart {
+    display: none;
+}
+button {
+    background: linear-gradient(to bottom right, rgba(65, 145, 195, 0.534), plum);
+    color: white;
+    border: none;
+    padding: 7px 24px;
+}
+button:hover{
+    color: lightgoldenrodyellow;
+    background-color: rgb(84, 178, 236);
+}
+.red {
+    color: red;
+}
+.orange {
+    color: #ffc107;
+}
+img#rip, img#happy {
+    display: none;
+}
