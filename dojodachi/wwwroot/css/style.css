@@ -77,6 +77,10 @@ button:hover{
 .orange {
     color: #ffc107;
 }
-img#rip, img#happy {
+img#rip, img#happy, .action {
     display: none;
+}
+.action {
+    width: 15%;
+    margin: 10% 7%;
 }

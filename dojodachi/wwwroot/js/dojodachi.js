@@ -83,12 +83,33 @@ $(document).ready(function() {
         }
     }
 
+    function showActionImg()
+    {
+        if (message.search(/fed/) != -1)
+        {
+            $("#carrot").slideDown().delay(300).slideUp();
+        }
+        else if (message.search(/played/) != -1)
+        {
+            $("#ball").slideDown().delay(300).slideUp();
+        }
+        else if (message.search(/worked/) != -1)
+        {
+            $("#briefcase").slideDown().delay(300).slideUp();
+        }
+        else if (message.search(/slept/) != -1)
+        {
+            $("#sleep").slideDown().delay(300).slideUp();
+        }
+    }
+
     function sleep()
     {
         $.get("sleep/" + energy + "/" + fullness + "/" + happiness, (res) => {
             energy = res.energy;
             fullness = res.fullness;
             happiness = res.happiness;
+            message = res.message;
             updateStatus();
         });
     }
@@ -102,6 +123,7 @@ $(document).ready(function() {
         $("#energy").text(energy);
         $("#meals").text(meals);
         $("#message").text(message);
+        showActionImg();
         showRestartBtn();
     }
 
