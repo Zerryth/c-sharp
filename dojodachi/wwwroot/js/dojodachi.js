@@ -63,12 +63,6 @@ $(document).ready(function() {
             updateStatus();
         });
     }
-    function getStatus()
-    {
-        $.get("/status/" + happiness + "/" + fullness + "/" + energy + "/" + meals, (res) => {
-            console.log(res);
-        });
-    }
 
     function play()
     {
@@ -112,7 +106,6 @@ $(document).ready(function() {
         $("#energy").text(energy);
         $("#meals").text(meals);
         $("#message").text(message);
-        getStatus();
         showRestartBtn();
     }
 
