@@ -36,7 +36,7 @@ namespace dojodachi.Controllers
                 }
                 else
                 {
-                    res["message"] = "Dojodachi does feel like eating. (Fullness +0, Meals -1)";
+                    res["message"] = "Dojodachi doesn't feel like eating. (Fullness +0, Meals -1)";
                 }
             }
             return Json(res);
