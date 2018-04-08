@@ -42,17 +42,6 @@ namespace dojodachi.Controllers
             return Json(res);
         }
 
-        [HttpGet]
-        [Route("status/{happiness}/{fullness}/{energy}/{meals}")]
-        public JsonResult getStatus(int happiness, int fullness, int energy, int meals)
-        {
-            res["happiness"] = happiness;
-            res["fullness"] = fullness;
-            res["energy"] = energy;
-            res["meals"] = meals;
-            return Json(res);
-        }
-
         public bool Likes()
         {
             bool likes = true;
