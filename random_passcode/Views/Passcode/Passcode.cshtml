@@ -14,13 +14,12 @@
         $(document).ready(function()
         {
             getPasscode();
-            $("#generate").on("click", function() 
-            {
+            $("#generate").on("click", () => {
                 getPasscode();
             });
             function getPasscode()
             {
-                $.get("/generate/"+count, function(res) {
+                $.get("/generate/"+count, (res) => {
                     count = res.count;
                     $("#count").text(res.count);
                     $("#passcode").text(res.passcode);

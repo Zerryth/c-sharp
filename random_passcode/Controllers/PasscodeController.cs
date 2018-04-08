@@ -24,17 +24,17 @@ namespace random_passcode.Controllers
                 chars[rand.Next(chars.Length)]).ToArray());
             return passcode;
         }
+
         public int IncrementCount(int count)
         {
             count += 1;
             return count;
         }
+        
         [HttpGet]
         [Route("generate/{count}")]
         public JsonResult GetResults(int count)
         {
-            System.Console.WriteLine("in GetResults****************");
-            System.Console.WriteLine(count);
             Dictionary<string, object> res = new Dictionary<string, object>()
             {
                 {"passcode", GeneratePasscode()},
