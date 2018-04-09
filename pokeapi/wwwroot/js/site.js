@@ -8,6 +8,5 @@ function checkApi()
 {
     $.get("/pokemon/1", (res) => {
         console.log("response", res);
-        
     });
 }

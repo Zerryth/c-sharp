@@ -1,0 +1,3 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\obj\Debug\netcoreapp2.0\c-sharp.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\obj\Debug\netcoreapp2.0\c-sharp.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\obj\Debug\netcoreapp2.0\c-sharp.AssemblyInfo.cs

@@ -13268,11 +13268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingDojo\\quotingDojo.csproj",
+      "projectUniqueName": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingdojo\\quotingDojo.csproj",
       "projectName": "quotingDojo",
-      "projectPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingDojo\\quotingDojo.csproj",
+      "projectPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingdojo\\quotingDojo.csproj",
       "packagesPath": "C:\\Users\\zeryt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingDojo\\obj\\",
+      "outputPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\quotingdojo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\bin\Debug\netcoreapp2.0\AjaxNotes.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\bin\Debug\netcoreapp2.0\AjaxNotes.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\bin\Debug\netcoreapp2.0\AjaxNotes.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\bin\Debug\netcoreapp2.0\AjaxNotes.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\bin\Debug\netcoreapp2.0\AjaxNotes.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\obj\Debug\netcoreapp2.0\AjaxNotes.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\obj\Debug\netcoreapp2.0\AjaxNotes.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\obj\Debug\netcoreapp2.0\AjaxNotes.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\obj\Debug\netcoreapp2.0\AjaxNotes.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\AjaxNotes\obj\Debug\netcoreapp2.0\AjaxNotes.pdb

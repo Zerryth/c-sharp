@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using pokeapi.Models;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using pokeapi.Controllers;
 
 namespace pokeapi.Controllers
 {
@@ -17,42 +19,38 @@ namespace pokeapi.Controllers
         [Route("")]
         public IActionResult Index()
         {
+
             return View("Pokemon");
         }
 
-        // [HttpGet]
-        // [Route("pokemon/{pokeid}")]
-        // public IActionResult QueryPoke(int pokeid)
-        // {
-        //     var PokeInfo = new Dictionary<string, object>();
-        //     WebRequest.GetPokemonDataAsync(pokeid, ApiResponse =>
-        //     {
-        //         PokeInfo = ApiResponse;
-        //     }).Wait();
-        //     Console.WriteLine("****************" + PokeInfo);
-        //     Console.WriteLine("tes");
-            
-        //     return View("Pokemon");
-        // }
 
         [HttpGet]
         [Route("pokemon/{pokeid}")]
-        public JsonResult QueryPoke(int pokeid)
+        public IActionResult QueryPoke(int pokeid)
         {
             var PokeInfo = new Dictionary<string, object>();
             WebRequest.GetPokemonDataAsync(pokeid, ApiResponse =>
             {
                 PokeInfo = ApiResponse;
-                // Console.WriteLine(PokeInfo["forms"]);
-                // Console.WriteLine("**********");
 
-             
-               
+                var Types = new List<string>();
+                // in  C#, explicitly tell the JArray, that it's a JArray
+                JArray typesJarray = (JArray)PokeInfo["types"];
+                foreach (var type in typesJarray)
+                {
+                    Types.Add(type["type"]["name"].ToString());
+                }
+
+                TempData["name"] = PokeInfo["name"];
+                TempData["types"] = string.Join(", ", Types); // ea. list element separated by ", "
+                TempData["height"] = PokeInfo["height"];
+                TempData["weight"] = PokeInfo["weight"];
+                TempData["spriteSrc"] = $"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokeid}.png";
+
             }).Wait();
-            
-            
-            
-            return Json(res);
+
+            return RedirectToAction("Index");
         }
     }
+    
 }

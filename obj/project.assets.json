@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\c-sharp.csproj",
+      "projectUniqueName": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\c-sharp.csproj",
       "projectName": "c-sharp",
-      "projectPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\c-sharp.csproj",
+      "projectPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\c-sharp.csproj",
       "packagesPath": "C:\\Users\\zeryt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\obj\\",
+      "outputPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
