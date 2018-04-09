@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\bin\Debug\netcoreapp2.0\pokeapi.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\bin\Debug\netcoreapp2.0\pokeapi.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\bin\Debug\netcoreapp2.0\pokeapi.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\bin\Debug\netcoreapp2.0\pokeapi.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\bin\Debug\netcoreapp2.0\pokeapi.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\obj\Debug\netcoreapp2.0\pokeapi.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\obj\Debug\netcoreapp2.0\pokeapi.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\obj\Debug\netcoreapp2.0\pokeapi.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\obj\Debug\netcoreapp2.0\pokeapi.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\pokeapi\obj\Debug\netcoreapp2.0\pokeapi.pdb

@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\bin\Debug\netcoreapp2.0\connecting_to_db.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\bin\Debug\netcoreapp2.0\connecting_to_db.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\bin\Debug\netcoreapp2.0\connecting_to_db.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\bin\Debug\netcoreapp2.0\connecting_to_db.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\bin\Debug\netcoreapp2.0\connecting_to_db.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\obj\Debug\netcoreapp2.0\connecting_to_db.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\obj\Debug\netcoreapp2.0\connecting_to_db.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\obj\Debug\netcoreapp2.0\connecting_to_db.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\obj\Debug\netcoreapp2.0\connecting_to_db.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\connecting_to_db\obj\Debug\netcoreapp2.0\connecting_to_db.pdb

@@ -50,7 +50,9 @@ p {
 }
 img {
     width: 50%;
-    margin-left: -10%;
+}
+img#bunny {
+    margin-left: 10%;
 }
 #message {
     font-size: 20px;
@@ -79,6 +81,9 @@ button:hover{
 }
 img#rip, img#happy, .action {
     display: none;
+}
+img#happy {
+    border-radius: 70px;
 }
 .action {
     width: 15%;

@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Pokemon Test App!</h1>
+
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Type</th>
+    </thead>
+    <tbody>
+        @foreach(var pokemon in @ViewBag.allPokemon)
+        {
+            <tr>
+                <td>@pokemon["name"]</td>
+                <td>@pokemon["type"]</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Add a Pokemon</h3>
+<form action="/addPokemon" method="POST">
+    <p>Pokemon Name: <input type="text" name="name"> </p>
+    <p>Pokemon Type: <input type="text" name="type"> </p>
+    <button type="submit">Submit</button>
+</form>

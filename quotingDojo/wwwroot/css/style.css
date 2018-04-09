@@ -1,0 +1,63 @@
+* {
+    color: lightseagreen;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Satisfy', cursive;
+}
+
+.welcome {
+    font-size: 4em;
+    margin: 4% 8%;
+}
+
+form label {
+    font-size: 25px;
+    vertical-align: top;
+    margin: 2%;
+}
+
+input, textarea {
+    border: 2px solid lightslategrey;
+    width: 70%;
+}
+
+input {
+    height: 32px;
+}
+
+#toQuotesBtn, #submit {
+    color: white;
+    border: none;
+    background: linear-gradient(to bottom right, rgba(65, 145, 195, 0.62), #4caf50f2);
+    margin: 3%;
+    font-size: 18px;
+    box-shadow: 3px 3px 9px 0px #bdbdbdba;
+    border-radius: 3px;
+}
+
+#toQuotesBtn:hover, #submit:hover {
+    color: lightgoldenrodyellow;
+    background-color: rgb(157, 157, 243);
+    text-decoration: underline;
+}
+
+#submit {
+    padding: 7px 24px;
+}
+
+#toQuotesBtn {
+    padding: 9px 20px;
+}
+
+.quote {
+    font-family: 'Arapey', serif;
+    font-size: 20px;
+    color: lightslategrey;
+}
+
+.quoteTitle, .welcome {
+    color: #fa956d  ;
+}

@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\bin\Debug\netcoreapp2.0\quotingDojo.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\bin\Debug\netcoreapp2.0\quotingDojo.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\bin\Debug\netcoreapp2.0\quotingDojo.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\bin\Debug\netcoreapp2.0\quotingDojo.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\bin\Debug\netcoreapp2.0\quotingDojo.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\obj\Debug\netcoreapp2.0\quotingDojo.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\obj\Debug\netcoreapp2.0\quotingDojo.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\obj\Debug\netcoreapp2.0\quotingDojo.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\obj\Debug\netcoreapp2.0\quotingDojo.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\quotingDojo\obj\Debug\netcoreapp2.0\quotingDojo.pdb
