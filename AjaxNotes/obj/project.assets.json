@@ -13268,11 +13268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\AjaxNotes\\AjaxNotes.csproj",
+      "projectUniqueName": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\AjaxNotes\\AjaxNotes.csproj",
       "projectName": "AjaxNotes",
-      "projectPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\AjaxNotes\\AjaxNotes.csproj",
+      "projectPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\AjaxNotes\\AjaxNotes.csproj",
       "packagesPath": "C:\\Users\\zeryt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zeryt\\onedrive\\desktop\\coding\\c-sharp\\AjaxNotes\\obj\\",
+      "outputPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\AjaxNotes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

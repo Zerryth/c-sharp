@@ -1,7 +1,50 @@
 * {
-    font-family: 'Cantata One', serif;
+    font-family: 'Imprima', sans-serif;
     color: lightseagreen;
 }
 h1 {
     font-family: 'Imprima', sans-serif;
 }
+
+.noteCard {
+    border: 2px solid slategrey;
+    width: 300px;
+    height: 200px;
+    margin: 2% 1%;
+    padding: 3%;
+    display: inline-block;
+    overflow: auto;
+    box-shadow: 3px 3px 1px 1px lavender;
+}
+
+.noteMain {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+}
+
+.title {
+    font-size: x-large;
+    color: #f99067;
+}
+
+.description {
+    font-size: larger;
+    font-family: 'Cantata One', serif;
+}
+
+input, textarea {
+    border: 2px solid #b0dbb0b8;
+    margin: 1% auto;
+    width: 50%;
+}
+
+#addNote {
+    background: linear-gradient(to bottom right, #b0dbb08c, #8bc98b);
+    border: none;
+    color: #009688e3;
+    padding: 8px 15px;
+    box-shadow: 2px 2px 5px 0px lightgrey;
+    font-size: 1.2em;
+}
+

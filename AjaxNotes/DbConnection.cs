@@ -18,7 +18,7 @@ namespace AjaxNotes.Connectors
         }
         
         //This method runs a query and stores the response in a list of dictionary records
-        public List<Dictionary<string, object>> Query(string queryString)
+        public static List<Dictionary<string, object>> Query(string queryString)
         {
             using(IDbConnection dbConnection = Connection)
             {
@@ -43,7 +43,7 @@ namespace AjaxNotes.Connectors
             }
         }
         //This method run a query and returns no values
-        public void Execute(string queryString)
+        public static void Execute(string queryString)
         {
             using (IDbConnection dbConnection = Connection)
             {
