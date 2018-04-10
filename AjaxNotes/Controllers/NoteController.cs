@@ -22,7 +22,6 @@ namespace AjaxNotes.Controllers
         [Route("notes")]
         public IActionResult AddNote(string title, string description)
         {
-            Console.WriteLine(title);
             DbConnector.Execute($"INSERT INTO notes (title, description, created_at, updated_at) VALUES ('{title}', '{description}', NOW(), NOW())");
             return RedirectToAction("Index");
         }
