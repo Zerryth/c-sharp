@@ -9,18 +9,11 @@ namespace AjaxNotes.Controllers
 {
     public class NoteController: Controller
     {
-        // private DbConnector cnx; // build reference to database connector
-        public NoteController() // using controller constructor
-        {
-            // cnx = new DbConnector(); // to instantiate cnx every time we hit a route
-        }
-
         [HttpGet]
         [Route("")]
         public IActionResult Index()
         {
-            string query = "SELECT * FROM notes ORDER BY created_at DESC";
-            var allnotes = DbConnector.Query(query);
+            var allnotes = DbConnector.Query("SELECT * FROM notes ORDER BY created_at DESC");
             ViewBag.allNotes = allnotes;
             return View("Note");
         }
@@ -29,9 +22,8 @@ namespace AjaxNotes.Controllers
         [Route("notes")]
         public IActionResult AddNote(string title, string description)
         {
-            string query = $"INSERT INTO notes (title, description, created_at, updated_at) VALUES ('{title}', '{description}', NOW(), NOW())";
-            DbConnector.Execute(query);
-            
+            Console.WriteLine(title);
+            DbConnector.Execute($"INSERT INTO notes (title, description, created_at, updated_at) VALUES ('{title}', '{description}', NOW(), NOW())");
             return RedirectToAction("Index");
         }
 
@@ -39,9 +31,7 @@ namespace AjaxNotes.Controllers
         [Route("notes/{id}")]
         public IActionResult DeleteNote(int id)
         {
-            Console.WriteLine("*****************id: " + id);
-            string query = $"DELETE FROM notes WHERE id = {id}";
-            DbConnector.Execute(query);
+            DbConnector.Execute($"DELETE FROM notes WHERE id = {id}");
             return RedirectToAction("Index");
         }
 
