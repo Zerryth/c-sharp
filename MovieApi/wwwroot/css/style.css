@@ -1,0 +1,40 @@
+* {
+    color: lightseagreen;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 27px;
+}
+h1 {
+    font-family: 'Gugi', cursive;
+    font-size: 2em;
+}
+.title, table thead th {
+    color: cornflowerblue;
+}
+button {
+    background: linear-gradient(to bottom right, rgb(86, 199, 152), steelblue);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px lightgrey;
+    padding: .5% 3%;
+}
+button:hover {
+    color: lightgoldenrodyellow;
+    box-shadow: 2px 2px 5px 0px yellow;
+}
+.rating {
+    color: mediumseagreen;
+}
+.release {
+    color: darkseagreen;
+}
+
+td {
+    padding: 1% 12% 1% 0%;
+    border-bottom: solid 1px;
+}
+.wrapper {
+    margin: auto;
+}
+/* body {
+    background: linear-gradient(to bottom right, whitesmoke, slategrey);
+} */

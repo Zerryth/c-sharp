@@ -1,0 +1,33 @@
+<div class="wrapper">
+    <h1 class="title">Movie Lookup</h1>
+
+    <form action="movie" method="POST">
+        <label for="title">Search for a movie: </label>
+        <input type="text" name="title" id="title">
+        <button type="submit">Search</button>
+    </form>
+
+    <hr>
+
+    @if (ViewBag.allSearchedMovies != null)
+    {
+        <table>
+            <thead>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Released</th>
+            </thead>
+            <tbody>
+                @foreach (var movie in ViewBag.allSearchedMovies)
+                {
+                    <tr>
+                        <td class="movieTitle">@movie["title"]</td>
+                        <td class="rating">@movie["rating"]</td>
+                        <td class="release">@movie["release_date"].ToString("MMMM d, yyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    
+    }
+</div>
