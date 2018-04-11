@@ -1,0 +1,50 @@
+* {
+    color: lightseagreen;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    color: lightsalmon;
+}
+form {
+    /* width: 53%; */
+}
+.inputs {
+    display: inline-block;
+}
+.labels, .inputs {
+    display: inline-block;
+}
+.labels label {
+    display: block;
+}
+.inputs input {
+    margin: 5% 3%;
+    border: 2px solid lightskyblue;
+    border-radius: 3px;
+    height: 44px;
+    box-shadow: 2px 2px 2px 1px #d0dd54;   
+}
+.labels label {
+    margin: 40% 0%;
+}
+button {
+    background-color: #7198dc;
+    color: white;
+    border: none;
+    padding: 8px 23px;
+    margin: 1% 0%  0% 60%;
+}
+button:hover {
+    color: lightgoldenrodyellow;
+    box-shadow: 2px 2px rgb(144, 208, 238);
+}
+.errorsContainer {
+    width: 500px;
+    height: 200px;
+}
+
+.red {
+    color: red;
+}

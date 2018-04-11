@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <h1>Enter your information</h1>
+
+    <form action="users" method="POST">
+        <div class="labels">
+            <label for="firstName">First Name: </label>
+            <label for="lastName">Last Name: </label>
+            <label for="age">Age: </label>
+            <label for="email">Email Address: </label>
+            <label for="password">Password: </label>
+        </div>
+        <div class="inputs">
+            <input type="text" name="firstName" id="firstName">
+            <br>
+            <input type="text" name="lastName" id="lastName">
+            <input type="number" name="age" id="age"><br>
+            <input type="text" name="email" id="email"><br>
+            <input type="text" name="password" id="password">
+        </div><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="errorsContainer">
+    @if (TempData["validity"] != null)
+    {
+        @foreach (var error in TempData)
+        {
+            <p class="red">@error.Value</p>
+        }
+    }
+    
+    </div>
+</div>
