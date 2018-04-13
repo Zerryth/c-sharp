@@ -1,0 +1,25 @@
+@model LoginReg.Models.LoginViewModel;
+
+<div class="wrapper">
+    <div class="login">
+        <h1>Register</h1>
+
+        <form asp-controller="Users" asp-action="Login" method="POST">
+            <div class="labels">
+                <label asp-for="Email">Email Address: </label>
+                <label asp-for="Password">Password: </label>
+            </div>
+            <div class="inputs">
+                <input asp-for="Email" id="email"><br>
+                <input asp-for="Password" id="password">
+            </div><br>
+            <div class="loginErrors">
+                <span asp-validation-for="Email"></span>
+                <span asp-validation-for="EmailIsInDB"></span>
+                <span asp-validation-for="Password"></span>
+                <span asp-validation-for="PasswordError"></span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
