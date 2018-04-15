@@ -1,0 +1,13 @@
+@model TheWall.Models.MessageModel;
+<form asp-controller="Wall" asp-action="AddMessage" method="POST" class="messageForm">
+    <label asp-for="MessageContext">Post a message</label>
+    <br>
+    <textarea asp-for="MessageContext"></textarea>
+    <input asp-for="users_id" type="hidden" value="@ViewBag.UserId">
+    <br>
+    <button type="submit">Post a message</button>
+</form>
+<hr>
+
+
+

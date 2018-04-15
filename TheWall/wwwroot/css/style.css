@@ -1,0 +1,50 @@
+* {
+    /* font-family: 'Mina', sans-serif;
+    font-family: 'Syncopate', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    color: lightseagreen;
+}
+h1 {
+    font-family: 'Syncopate', sans-serif;
+}
+form {
+    margin: 2% 1%;
+}
+label {
+    font-family: 'Syncopate', sans-serif;
+}
+textarea {
+    border: 2px solid lightslategray;
+    width: 80%;
+    height: 80px;
+}
+.message {
+    border: 2px solid #00bcd4;
+    width: 65%;
+}
+.comment {
+    border: 2px solid thistle;
+    width: 60%;
+    margin: 2% 3%;
+}
+.commentForm {
+    margin-left: 2%;
+    width: 70%;
+}
+.message, .comment {
+    padding: 1%;
+}
+.timestamp {
+    color: lightsalmon;
+}
+
+.messageContainer .timestamp {
+    font-family: 'Mina', sans-serif;
+}
+
+button {
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 2px 2px aliceblue;
+    color: white;
+}

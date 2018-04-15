@@ -1,0 +1,32 @@
+@model TheWall.Models.MessageModel; 
+
+@{
+    if (@ViewBag.allMessages != null)
+    {
+        foreach(var message in @ViewBag.allMessages)
+        {
+            <div class="messageContainer">
+                <div class="message">
+                    <h4 class="timestamp">@message["FullName"] - @message["CreatedAt"].ToString("MMMM d, yyy")</h4>
+                    <h4>@message["MessageContext"]</h4>
+                    <a asp-controller="Wall" asp-action="DeleteMessage" asp-route-messageId="@message["MessageId"]">Delete Message</a>
+                </div>
+                    <div class="commentContainer">
+                    @foreach(var comment in message["MessageComments"])
+                    {
+                        <div class="comment">
+                            <h5 class="timestamp">@comment.CommenterName - @comment.CreatedAt.ToString("MMM d, yyy")</h5>
+                            <p>@comment.CommentContext</p>
+                            <a asp-controller="Wall" asp-action="DeleteComment" asp-route-commentId="@comment.CommentId">Delete Comment</a>
+                        </div>
+                    }
+                    <form asp-controller="Wall" asp-action="AddComment" method="POST" class="commentForm">
+                        @Html.Partial("CommentForm")
+                        <input type="hidden" name="messages_id" value="@message["MessageId"]">
+                   </form>
+                </div>
+            </div>
+            <hr>
+        }
+    }
+}

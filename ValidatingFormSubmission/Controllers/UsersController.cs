@@ -35,12 +35,15 @@ namespace ValidatingFormSubmission.Controllers
         {
           TempData["validity"] = ModelState.IsValid;
           int keyNum = 0;
-          foreach(var error in ModelState.Values)
+          
+          foreach(var error in ModelState)
           {
               string tempKey = "key" + keyNum;
-              TempData[tempKey] = error.Errors[0].ErrorMessage;
+              if (error.Value.Errors.Count > 0)
+              {
+                TempData[error.Key] = error.Value.Errors[0].ErrorMessage;
+              }
               keyNum++;
-
           }
         }
           return RedirectToAction("Index");

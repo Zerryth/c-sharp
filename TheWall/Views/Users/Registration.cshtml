@@ -1,0 +1,45 @@
+@model TheWall.Models.RegisterViewModel;
+
+<div class="wrapper">
+    <div class="registration">
+        <h1>Register</h1>
+
+        <form asp-controller="Users" asp-action="RegisterUser" method="POST">
+            <div class="labels">
+                <label asp-for="FirstName">First Name: </label>
+                <label asp-for="LastName">Last Name: </label>
+                <label asp-for="Email">Email Address: </label>
+                <label asp-for="Password">Password: </label>
+                <label asp-for="ConfirmationPW">Confirm Password: </label>
+            </div>
+            <div class="inputs registration">
+                <input asp-for="FirstName" id="firstName">
+                <br>
+                <input asp-for="LastName" id="lastName">
+                <br>
+                <input asp-for="Email" id="email">
+                <br>
+                <input asp-for="Password" id="password">
+                <br>
+                <input asp-for="ConfirmationPW" id="ConfirmationPW">
+                <br>
+            </div>
+            <div class="registrationErrors">
+                <span asp-validation-for="FirstName"></span>
+                <br>
+                <span asp-validation-for="LastName"></span>
+                <br>
+                <span asp-validation-for="Email"></span>
+                <span asp-validation-for="IsUnique"></span>
+                <br>
+                <span asp-validation-for="Password"></span>
+                <br>
+                <span asp-validation-for="ConfirmationPW"></span>
+                <br>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+
+    </div>
+    <hr>
+</div>

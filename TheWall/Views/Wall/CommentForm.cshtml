@@ -1,0 +1,7 @@
+@model TheWall.Models.CommentModel;
+<label>Post a comment</label>
+<br>
+<textarea asp-for="CommentContext"></textarea>
+<br>
+<button type="submit">Post a comment</button>
+<input type="hidden" asp-for="users_id" value="@ViewBag.UserId" class="test">
