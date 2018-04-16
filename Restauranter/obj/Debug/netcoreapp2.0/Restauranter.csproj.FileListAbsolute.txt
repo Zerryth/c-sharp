@@ -1,0 +1,10 @@
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\bin\Debug\netcoreapp2.0\Restauranter.deps.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\bin\Debug\netcoreapp2.0\Restauranter.runtimeconfig.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\bin\Debug\netcoreapp2.0\Restauranter.runtimeconfig.dev.json
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\bin\Debug\netcoreapp2.0\Restauranter.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\bin\Debug\netcoreapp2.0\Restauranter.pdb
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\obj\Debug\netcoreapp2.0\Restauranter.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\obj\Debug\netcoreapp2.0\Restauranter.AssemblyInfoInputs.cache
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\obj\Debug\netcoreapp2.0\Restauranter.AssemblyInfo.cs
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\obj\Debug\netcoreapp2.0\Restauranter.dll
+C:\Users\zeryt\OneDrive\Desktop\Coding\c-sharp\Restauranter\obj\Debug\netcoreapp2.0\Restauranter.pdb

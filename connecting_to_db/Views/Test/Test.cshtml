@@ -13,8 +13,8 @@
         @foreach(var pokemon in @ViewBag.allPokemon)
         {
             <tr>
-                <td>@pokemon["name"]</td>
-                <td>@pokemon["type"]</td>
+                <td>@pokemon.name</td>
+                <td>@pokemon.type</td>
             </tr>
         }
     </tbody>

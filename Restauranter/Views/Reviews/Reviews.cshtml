@@ -1,0 +1,21 @@
+@model List<Restauranter.Models.Review>;
+<h1>Reviews!</h1>
+
+@foreach (Review review in @Model)
+{
+    <div class="review">
+        <h4>Review for: @review.RestaurantName - @review.Stars star(s)</h4>
+        <p>Reviewer: @review.ReviewerName, Visited: @review.VisitDate.ToString("MMM d, yyy"), Reviewed On: @review.CreatedAt.ToString("MMM d, yyy")</p>
+
+        <p>@review.Helpful people found this Helpful.</p>
+        <p>@review.Unhelpful people found this Unhelpful.</p>
+
+        <p>
+        Did you find this review 
+        <a asp-controller="Reviews" asp-action="Helpful" asp-route-id="@review.Id">Helpful</a> 
+        or 
+        <a asp-controller="Reviews" asp-action="Unhelpful" asp-route-id="@review.Id">Unhelpful</a>?
+        </p>
+    </div>
+    <hr>
+}

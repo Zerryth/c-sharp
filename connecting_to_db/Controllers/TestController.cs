@@ -1,32 +1,31 @@
-using connecting_to_db.Connectors;
+// using connecting_to_db.Connectors;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using connecting_to_db.Models;
+using connecting_to_db.Factories;
 
 namespace connecting_to_db.Controllers
 {
    public class TestController: Controller
    {
        // build out a reference to the db connector
-        private MySqlConnector cnx;
+        private readonly PokemonFactory pokemonFactory;
 
         // use the controller constructor to instantiate the cnx every time we hit a route
         public TestController()
         {
-            cnx = new MySqlConnector(); // instantiate connector
+            pokemonFactory = new PokemonFactory(); // instantiate connector
         }
 
         [HttpGet]
         [Route("test")]
         public IActionResult Index()
         {
-            string query = "SELECT * FROM pokemons";
-            // List<Dictionary<string, object>> allPokemon = cnx.Query(query);
-            var allPokemon = cnx.Query(query);
-            ViewBag.allPokemon = allPokemon;
+            ViewBag.allPokemon = pokemonFactory.GetAllPokemon();
             // System.Console.WriteLine("****" + allPokemon);
-            foreach (var entry in allPokemon)
+            foreach (var entry in ViewBag.allPokemon)
             {
                 System.Console.WriteLine("Name: " + entry["name"]);
                 System.Console.WriteLine("Type: " + entry["type"]);
@@ -36,12 +35,11 @@ namespace connecting_to_db.Controllers
 
         [HttpPost]
         [Route("/addPokemon")]
-        public IActionResult AddPokemon(string name, string type)
+        public IActionResult AddPokemon(Pokemon pokemon)
         {
-            System.Console.WriteLine(name);
-            System.Console.WriteLine(type);
-            string query = $"INSERT INTO pokemons (name, type, created_at, updated_at) VALUES ('{name}','{type}', NOW(), NOW())";
-            cnx.Execute(query);
+            System.Console.WriteLine(pokemon.name);
+            System.Console.WriteLine(pokemon.type);
+            pokemonFactory.AddPokemon(pokemon);
             return RedirectToAction("Index");
         }
    }
