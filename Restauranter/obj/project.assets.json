@@ -12788,11 +12788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\Restauranter\\Restauranter.csproj",
+      "projectUniqueName": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\restauranter\\Restauranter.csproj",
       "projectName": "Restauranter",
-      "projectPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\Restauranter\\Restauranter.csproj",
+      "projectPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\restauranter\\Restauranter.csproj",
       "packagesPath": "C:\\Users\\zeryt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\Restauranter\\obj\\",
+      "outputPath": "C:\\Users\\zeryt\\OneDrive\\Desktop\\Coding\\c-sharp\\restauranter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

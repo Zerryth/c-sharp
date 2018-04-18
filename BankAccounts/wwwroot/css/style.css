@@ -1,0 +1,19 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    color: lightseagreen;
+}
+form span {
+    color: red;
+}
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    color: lightsalmon;
+}
+
+button {
+    background-color: rgb(121, 207, 174);
+    border: none;
+    box-shadow: 2px 2px aliceblue;
+    color: white;
+    padding: 8px 15px;
+}

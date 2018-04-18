@@ -1,0 +1,35 @@
+@model BankAccounts.Models.UserAccountBundle
+<div class="accountContainer">
+    
+    <h1>Welcome, @Model.UserModel.FirstName @Model.UserModel.LastName</h1>
+    <p>Current Balance: @Model.UserModel.Balance</p>
+
+    <form asp-controller="Transactions" asp-action="AddTransaction" method="POST">
+        <label asp-for="@Model.TransactionModel.Amount">Deposit/Withdraw: </label>
+        <input asp-for="@Model.TransactionModel.Amount">
+        <span asp-validation-for="@Model.TransactionModel.Amount"></span>
+        <input type="hidden" asp-for="@Model.TransactionModel.UserId">
+
+        <button type="submit">Submit</button>
+    </form>
+    @if(TempData["error"] != null)
+    {
+        <span>@TempData["error"]</span>
+    }
+
+    <table>
+        <thead>
+            <th>Amount</th>
+            <th>Date</th>
+        </thead>
+        <tbody>
+            @foreach(var transaction in @Model.UserModel.Transactions)
+            {
+                <tr>
+                    <td>$@transaction.Amount</td>
+                    <td>@transaction.CreatedAt.ToString("MMM d, yyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
