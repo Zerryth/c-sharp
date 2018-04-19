@@ -1,0 +1,62 @@
+@model List<WeddingPlanner.Models.Wedding>
+
+<div class="dashboardContainer">
+    <h1>Welcome to the Wedding Planner</h1>
+    <a href="/logout">Logout</a>
+
+    <table>
+        <thead>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guest</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            @foreach(var wedding in @Model)
+            {
+                <tr>
+                    <td>
+                        <a asp-controller="Weddings" asp-action="Details" asp-route-weddingId="@wedding.WeddingId">
+                            @wedding.WedderOne & @wedding.WedderTwo
+                        </a>
+                    </td>
+                    <td>@wedding.WeddingDate.ToString("MMM d, yyy")</td>
+                    <td>@wedding.Guests.Count</td>
+                    <td>
+                        @{
+                            if(wedding.CreatorId != ViewBag.UserId)
+                            {
+                                bool isAttending = false;
+                                foreach(var user in @wedding.Guests)
+                                {
+                                    if(@user.User != null)
+                                    {
+                                        if((int)@user.User.UserId == @ViewBag.UserId)
+                                        {
+                                            isAttending = true;
+                                        }
+                                    }
+                                }
+                                if(isAttending)
+                                {
+                                    <a asp-controller="Weddings" asp-action="RSVP" asp-route-weddingId=@wedding.WeddingId>Un-RSVP</a>
+                                }
+                                else
+                                {
+                                    <a asp-controller="Weddings" asp-action="RSVP" asp-route-weddingId=@wedding.WeddingId>RSVP</a>
+                                }
+
+                            }
+                            else
+                            {
+                                <a asp-controller="Weddings" asp-action="DeleteWedding" asp-route-weddingId=@wedding.WeddingId>Delete</a>
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/weddings">New Wedding</a>
+</div>

@@ -10,7 +10,7 @@ namespace BankAccounts.Models
         [Range(0, 0, ErrorMessage="Email not found in database.")]
         public int EmailInDb { get; set; }
 
-        [Required]
+        [Required, DataType(DataType.Password)]
         public string Password { get; set; }
 
         [Range(0, 0, ErrorMessage="Password entered does not match password in database.")]

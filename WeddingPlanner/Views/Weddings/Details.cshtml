@@ -1,0 +1,15 @@
+@model WeddingPlanner.Models.Wedding;
+
+<div class="detailsContainer">
+    <a href="/Dashboard">Dashboard</a>
+    <a href="">Logout</a>
+
+    <h1>@Model.WedderOne and @Model.WedderTwo's Wedding</h1>
+    <h2>Date: @Model.WeddingDate.ToString("MMMM d, yyy")</h2>
+    
+    <h3>Guests:</h3>
+    @foreach(var guest in @Model.Guests)
+    {
+        <p>@guest.User.FirstName @guest.User.LastName</p>
+    }
+</div>
