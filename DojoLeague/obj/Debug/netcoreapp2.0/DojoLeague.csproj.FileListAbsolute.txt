@@ -1,0 +1,10 @@
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\bin\Debug\netcoreapp2.0\DojoLeague.deps.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\bin\Debug\netcoreapp2.0\DojoLeague.runtimeconfig.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\bin\Debug\netcoreapp2.0\DojoLeague.runtimeconfig.dev.json
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\bin\Debug\netcoreapp2.0\DojoLeague.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\bin\Debug\netcoreapp2.0\DojoLeague.pdb
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\obj\Debug\netcoreapp2.0\DojoLeague.csproj.CoreCompileInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\obj\Debug\netcoreapp2.0\DojoLeague.AssemblyInfoInputs.cache
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\obj\Debug\netcoreapp2.0\DojoLeague.AssemblyInfo.cs
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\obj\Debug\netcoreapp2.0\DojoLeague.dll
+C:\Users\zeryt\onedrive\desktop\coding\c-sharp\DojoLeague\obj\Debug\netcoreapp2.0\DojoLeague.pdb

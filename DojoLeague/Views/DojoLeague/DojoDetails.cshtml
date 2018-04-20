@@ -1,0 +1,46 @@
+@model List<DojoLeague.Models.Dojo>
+
+<h1>@Model[0].DojoName Dojo!!</h1>
+<h3>Dojo Location - @Model[0].Location</h3>
+<h3>Information - @Model[0].Info</h3>
+
+@foreach(var dojo in @Model)
+{
+    if(dojo.DojoId != 5)
+    {
+        <table>
+            <thead>
+                <th>Ninja</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                @foreach(var ninja in dojo.NinjaCohort)
+                {
+                    <tr>
+                        <td>@ninja.NinjaName</td>
+                        <td><a asp-controller="DojoLeague" asp-action="Banish" asp-route-ninjaId="@ninja.NinjaId" asp-route-dojoId="@dojo.DojoId">Banish!</a></td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <th>Ninja</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                @foreach(var ninja in dojo.NinjaCohort)
+                {
+                    <tr>
+                        <td>@ninja.NinjaName</td>
+                        <td><a href="">Recruit!</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

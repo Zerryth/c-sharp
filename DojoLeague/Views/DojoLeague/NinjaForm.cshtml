@@ -1,0 +1,61 @@
+@model DojoLeague.Models.NinjaDojoBundle
+
+<div class="dojoFormContainer">
+    <div class="allDojosContainer">
+        <h1>Registered Ninjas</h1>
+        <table>
+            <thead>
+                <th>Ninja Name</th>
+                <th>Home Dojo</th>
+            </thead>
+            <tbody>
+                @foreach(var ninja in @Model.NinjaList)
+                {
+                    <tr>
+                        <td><a href="/Ninjas/@ninja.NinjaId" >@ninja.NinjaName</a></td>
+                        <td>
+                            @if(ninja.MemberOfId == 5)
+                            {
+                                <p>Rouge</p>
+                            }
+                            else
+                            {
+                                <a href="">@ninja.Dojo.DojoName</a>
+                            }
+                        
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        
+    </div>
+
+    <div class="dojoForm">
+        <form asp-controller="DojoLeague" asp-action="Ninjas" method="POST">
+            <h1>Register A Ninja</h1>
+
+            <label asp-for="@Model.NinjaModel.NinjaName"></label><br>
+            <input asp-for="@Model.NinjaModel.NinjaName"><br>
+            <span asp-validation-for="@Model.NinjaModel.NinjaName"></span><br>
+
+            <label asp-for="@Model.NinjaModel.Level"></label><br>
+            <input asp-for="@Model.NinjaModel.Level"></label><br>
+            <span asp-validation-for="@Model.NinjaModel.Level"></span><br>
+
+            <label asp-for="@Model.NinjaModel.MemberOfId"></label>
+            <select asp-for="@Model.NinjaModel.MemberOfId">
+                <option value="5" selected>Rouge</option>
+                @foreach(var dojo in @Model.DojoList)
+                {
+                    <option value="@dojo.DojoId">@dojo.DojoName</option>
+                }
+            </select><br>
+
+            <label asp-for="@Model.NinjaModel.Description"></label><br>
+            <input asp-for="@Model.NinjaModel.Description"><br>
+
+            <button type="submit">Add</button>
+        </form>
+    </div>
+</div>
